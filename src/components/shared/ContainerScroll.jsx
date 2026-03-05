@@ -43,6 +43,14 @@ export const ContainerScroll = ({
           perspective: "1000px",
         }}
       >
+        {titleComponent && (
+          <motion.div
+            style={{ translateY: translate }}
+            className="w-full mb-6 text-left"
+          >
+            {titleComponent}
+          </motion.div>
+        )}
         <Card rotate={rotate} translate={translate} scale={scale}>
           {children}
         </Card>

@@ -24,11 +24,8 @@ export function ProjectsSection() {
     >
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10">
         <div>
-          <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-[color:var(--text-muted)]">
-            03 · Projects
-          </h2>
-          <p className="mt-2 text-2xl font-semibold text-[color:var(--text-primary)]">
-            macOS-style folders for key work
+          <p className="text-2xl font-semibold text-[color:var(--text-primary)]">
+            PROJECTS
           </p>
         </div>
 

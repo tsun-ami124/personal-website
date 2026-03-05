@@ -14,7 +14,11 @@ export function FinderSection() {
       id="finder"
       className="relative min-h-screen px-4 py-20 md:px-10 lg:px-20 flex items-center overflow-hidden"
     >
-      <ContainerScroll>
+      <ContainerScroll
+        titleComponent={
+          <h2 className="text-2xl font-semibold text-white">PORTFOLIO</h2>
+        }
+      >
         {/* GlassFilterDef for backdrop filter */}
         <GlassFilterDef id="glass-blur" />
 
